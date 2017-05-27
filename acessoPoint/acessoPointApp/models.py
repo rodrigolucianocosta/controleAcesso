@@ -18,6 +18,7 @@ class Pessoa(models.Model):
 	rg = models.CharField('rg', max_length=20, null=True)
 	orgao_expedidor = models.CharField(max_length=30, null=True)
 	telefone = models.CharField('telefone',max_length=9,null=True)
+#	email	
 	class Meta:
 		verbose_name = 'Pessoa'
 		verbose_name_plural = 'Pessoas'
